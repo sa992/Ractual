@@ -16,6 +16,9 @@
 		407967C5240A266C00EFA576 /* RactualUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 407967C4240A266C00EFA576 /* RactualUITests.swift */; };
 		407967D3240A341100EFA576 /* FriendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 407967D2240A341100EFA576 /* FriendsViewController.swift */; };
 		407967D5240A371E00EFA576 /* FriendsGames.swift in Sources */ = {isa = PBXBuildFile; fileRef = 407967D4240A371E00EFA576 /* FriendsGames.swift */; };
+		407967D9240A5D5500EFA576 /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = 407967D8240A5D5500EFA576 /* Video.swift */; };
+		407967DB240A5E1300EFA576 /* VideoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 407967DA240A5E1300EFA576 /* VideoModel.swift */; };
+		407967DD240AD2FB00EFA576 /* FGames.swift in Sources */ = {isa = PBXBuildFile; fileRef = 407967DC240AD2FB00EFA576 /* FGames.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,9 @@
 		407967C6240A266C00EFA576 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		407967D2240A341100EFA576 /* FriendsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsViewController.swift; sourceTree = "<group>"; };
 		407967D4240A371E00EFA576 /* FriendsGames.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsGames.swift; sourceTree = "<group>"; };
+		407967D8240A5D5500EFA576 /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
+		407967DA240A5E1300EFA576 /* VideoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoModel.swift; sourceTree = "<group>"; };
+		407967DC240AD2FB00EFA576 /* FGames.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FGames.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +115,9 @@
 				407967AB240A266C00EFA576 /* Assets.xcassets */,
 				407967AD240A266C00EFA576 /* LaunchScreen.storyboard */,
 				407967B0240A266C00EFA576 /* Info.plist */,
+				407967D8240A5D5500EFA576 /* Video.swift */,
+				407967DA240A5E1300EFA576 /* VideoModel.swift */,
+				407967DC240AD2FB00EFA576 /* FGames.swift */,
 			);
 			path = Ractual;
 			sourceTree = "<group>";
@@ -263,9 +272,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				407967A7240A266A00EFA576 /* ViewController.swift in Sources */,
+				407967DD240AD2FB00EFA576 /* FGames.swift in Sources */,
+				407967DB240A5E1300EFA576 /* VideoModel.swift in Sources */,
 				407967D5240A371E00EFA576 /* FriendsGames.swift in Sources */,
 				407967D3240A341100EFA576 /* FriendsViewController.swift in Sources */,
 				407967A5240A266A00EFA576 /* AppDelegate.swift in Sources */,
+				407967D9240A5D5500EFA576 /* Video.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
