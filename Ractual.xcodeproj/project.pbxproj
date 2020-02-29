@@ -14,6 +14,8 @@
 		407967AF240A266C00EFA576 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 407967AD240A266C00EFA576 /* LaunchScreen.storyboard */; };
 		407967BA240A266C00EFA576 /* RactualTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 407967B9240A266C00EFA576 /* RactualTests.swift */; };
 		407967C5240A266C00EFA576 /* RactualUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 407967C4240A266C00EFA576 /* RactualUITests.swift */; };
+		407967D3240A341100EFA576 /* FriendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 407967D2240A341100EFA576 /* FriendsViewController.swift */; };
+		407967D5240A371E00EFA576 /* FriendsGames.swift in Sources */ = {isa = PBXBuildFile; fileRef = 407967D4240A371E00EFA576 /* FriendsGames.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		407967C0240A266C00EFA576 /* RactualUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RactualUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		407967C4240A266C00EFA576 /* RactualUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RactualUITests.swift; sourceTree = "<group>"; };
 		407967C6240A266C00EFA576 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		407967D2240A341100EFA576 /* FriendsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsViewController.swift; sourceTree = "<group>"; };
+		407967D4240A371E00EFA576 /* FriendsGames.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsGames.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 			children = (
 				407967A4240A266A00EFA576 /* AppDelegate.swift */,
 				407967A6240A266A00EFA576 /* ViewController.swift */,
+				407967D4240A371E00EFA576 /* FriendsGames.swift */,
+				407967D2240A341100EFA576 /* FriendsViewController.swift */,
 				407967A8240A266A00EFA576 /* Main.storyboard */,
 				407967AB240A266C00EFA576 /* Assets.xcassets */,
 				407967AD240A266C00EFA576 /* LaunchScreen.storyboard */,
@@ -257,6 +263,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				407967A7240A266A00EFA576 /* ViewController.swift in Sources */,
+				407967D5240A371E00EFA576 /* FriendsGames.swift in Sources */,
+				407967D3240A341100EFA576 /* FriendsViewController.swift in Sources */,
 				407967A5240A266A00EFA576 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
